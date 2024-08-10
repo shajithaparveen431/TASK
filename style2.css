@@ -1,0 +1,16 @@
+.hea{
+    color: rgb(232, 142, 16);
+    background-color: rgb(6, 6, 6);
+    width: 30%;
+    margin: 15px;
+    border-radius: 3px;
+    padding: 8px;
+}
+body{
+    color: rgb(232, 142, 16);
+    background-color: rgb(46, 40, 40);
+}
+
+.but{
+    color: rgb(12, 12, 12);
+}

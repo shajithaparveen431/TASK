@@ -1,0 +1,25 @@
+<html>
+    <head>
+        File the details to complite the registration
+    </head>
+    <title>
+        Registration Page  
+    </title>
+    <link>
+    <body>
+        <table>
+            <form>
+                <tr>
+                    <td><label for="fname">First Name</label></td>
+                    <td><input type="text" placeholder="Type your First Name" value="fnamae"></td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
+
+
+
+ <label for="first Name">First Name:</label>
+        <input type="text" placeholder="Type your First Name" name="first Name"><br>
+        

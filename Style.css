@@ -95,3 +95,13 @@
     margin: 4px;
     
 }
+.bu{
+    margin: 2px;
+    padding:8px;
+    background-color:rgb(7, 7, 7) ;
+    color: rgb(201, 185, 11);
+    width: 150px;
+    border-radius: 5px;
+    display: inline;
+
+}
