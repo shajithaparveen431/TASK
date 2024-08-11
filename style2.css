@@ -1,16 +1,28 @@
 .hea{
-    color: rgb(232, 142, 16);
+    color: rgb(225, 132, 1);
     background-color: rgb(6, 6, 6);
+    width: 100%;
+    margin: 15px;
+    border-radius: 3px;
+    padding: 8px;
+  
+}
+body{
     width: 30%;
     margin: 15px;
     border-radius: 3px;
     padding: 8px;
-}
-body{
-    color: rgb(232, 142, 16);
-    background-color: rgb(46, 40, 40);
+    margin-left: 80px;
+    background-image: url(ho.jpg);
+    background-size: 100% 100%;   
+    background-repeat: no-repeat;
 }
 
 .but{
     color: rgb(12, 12, 12);
+}
+.lm{
+    color: hsl(25, 100%, 50%);
+    font-size:15px;
+    font-weight: bold;
 }
