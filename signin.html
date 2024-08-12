@@ -7,31 +7,54 @@
                 background-image: url(qwe.avif);  
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
+                
             }
-            h1{
-                color: rgb(240, 12, 134);
+            h2{
+                color: rgb(242, 33, 33);
                 font-weight:bolder;
+                margin-top: 5px;
+                font-weight: 800;
             }
             .mn{
-                margin-top: 20%;
-                border: 2px rgb(203, 33, 90) solid;
+                margin-top: 3%;
+                border: 2px rgb(252, 93, 93) solid;
+                background-color:rgb(244, 164, 142);
                 border-radius: 5px;
+                width: 30%;
             }
             .nn{
-                border: 1px rgb(227, 0, 76) solid;
-                width:30%;
+                border: 1.5px rgb(247, 93, 93) solid;
+                border-radius: 3px;
+                height: 23px;
+                width:150px;
+                background-color: wheat;
+                text-align: left;
+            }
+            #pl{
+                border: 2px;
+                border-radius: 5px;
+                margin: 4px;
+                padding:4px;
+                color: rgb(247, 16, 16);
+                background-color:wheat;
+                width: 200px;
+                text-decoration: none;
+                font-weight: bold;
+                
             }
         </style>
     </head>
     <body>
         <center>
-            <h1>sign in</h1>
+        <div>
+            <img src="navy.png" alt="logo image" width="150px" height="150px" style="margin-top:2%;">
+            <h2>sign in</h2>
             <div class="mn">
-                <p class="nn">
-                username
-                </p>
-                <p class="nn">password</p>
-            </div>
+                <br><input type="text" name="username" placeholder=" 👤     Username" class="nn"><br>
+                <br><input type="password" name="pwd" placeholder="🔒      password" class="nn"><br><br>
+                <a id="pl" href="#">Login</a><br><br>
+            </div><br>
+        </div>
         </center>
     </body>
 </html>
