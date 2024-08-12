@@ -98,10 +98,21 @@
 .bu{
     margin: 2px;
     padding:8px;
-    background-color:rgb(7, 7, 7) ;
-    color: rgb(201, 185, 11);
+    background-color:rgb(15, 14, 14) ;
+    color: rgb(30, 11, 201);
     width: 150px;
     border-radius: 5px;
     display: inline;
-
+}
+#lo{
+    color: rgb(135, 2, 2);
+    
+}
+#il{
+    color: rgb(243, 214, 69);
+    font-size: 25px;
+    margin-top:20px;
+    margin-bottom: -10px;
+    border:1px;
+   
 }
