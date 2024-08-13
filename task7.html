@@ -6,41 +6,127 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List in HTML</title>
     <style>
-        
         .ok {
             list-style-image: url('file:///C:/Users/Shaji/Desktop/Projects/FED/TASK/arrow_forward_ios_16dp_E8EAED_FILL0_wght400_GRAD0_opsz20.jpg');
         }
-    
+        .flexbox{
+            background-color: blue;
+            padding: 5px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .flexbox>div{
+            background-color: cadetblue;
+            margin: 5px;
+            height: 100px;
+            width:50px;
+            line-height: 80px;
+            text-align:center;
+            font-size: 15px;
+            flex:auto;
+        }
+        body{
+            background-color: crimson;
+        }
     </style>
 </head>
 <body>
     <h2>List in Html</h2>
-    <h3>Unordered List</h3>
-    <P>Type of Flowers</P>
-    <ul  style="list-style-type:square;">
+    <h3 style="margin-left: 20px;">I Unordered List</h3>
+    <P  style="margin-left: 40px;">1.Type of Flowers:</P>
+    <ul style="list-style-type:square; margin-left: 80px;">
         <li>jasmin</li>
         <li>liliy</li>
         <li>rose</li>
         <li>lotus</li>
         <li>sunflower</li>
     </ul>
-    <h3>Ordered List</h3>
-    <p>Types of vegatables</p>
-    <ol class="ok">
+    <P  style="margin-left: 40px;">2.Type of Houses:</P>
+    <ul style="list-style-type:circle; margin-left: 80px;">
+        <li>Form house</li>
+        <li>Beach house</li>
+        <li>Appartment</li>
+        <li>Bungalow</li>
+        <li>Tree house</li>
+    </ul>
+    <P  style="margin-left: 40px;">3.Type of Trees:</P>
+    <ul style="list-style-type:armenian; margin-left: 80px;">
+        <li>Banyan tree</li>
+        <li>Coconut tree</li>
+        <li>Pine tree</li>
+        <li>Palm tree</li>
+        <li>Dates tree</li>
+    </ul>
+    <P  style="margin-left: 40px;">4.Type of Dress:</P>
+    <ul style="list-style-type:georgian; margin-left: 80px;">
+        <li>Tradition</li>
+        <li>Western</li>
+        <li>Roadside</li>
+        <li>Indo-Western</li>
+        <li>Party wear</li>
+    </ul>
+    <h3 style="margin-left: 20px;">II Ordered List</h3>
+    <p style="margin-left: 40px;">1.Types of Vegatables:</p>
+    <ol class="ok" style="list-style-type:square; margin-left: 80px;">
         <li>Asparagus</li>
         <li>Beetroot</li>
         <li>Carrot</li>
         <li>drumstick</li>
         <li>Endive</li>
     </ol>
-    <h3> Description Lists</h3>
-    <P>Type of Fruits</P>
-    <dl>
-        <dt>Apple</dt>
-        <dd>There are different types of apple like Red Apple ,Green Apple and etc </dd>
-        <dt>Banana</dt>
-        <dd>There are different types of Banana like Red Banana,Raw Banana and etc.</dd>
+    <P  style="margin-left: 40px;">2.Type of Animals:</P>
+    <ul style="list-style-type:disc; margin-left: 80px;">
+        <li>Cow</li>
+        <li>Tiger</li>
+        <li>Lion</li>
+        <li>Elephant</li>
+        <li>Dog</li>
+    </ul>
+    <P  style="margin-left: 40px;">3.Type of Living Beings in Ocean:</P>
+    <ul style="list-style-type:decimal; margin-left: 80px;">
+        <li>Fish</li>
+        <li>Crab</li>
+        <li>Turtle</li>
+        <li>Seahourse</li>
+        <li>Whale</li>
+    </ul>
+    <P  style="margin-left: 40px;">4.Type of Birds:</P>
+    <ul style="list-style-type:lower-roman; margin-left: 80px;">
+        <li>Sparrow</li>
+        <li>Dove</li>
+        <li>Parrot</li>
+        <li>Eagle</li>
+        <li>Owl</li>
+    </ul>
+    <h3 style="margin-left: 20px;">III Description Lists</h3>
+    <P style="margin-left: 40px;">Type of Fruits:</P>
+    <dl style="list-style-type:square; margin-left: 80px;">
+        <dt>A.Apple</dt>
+        <dd>-There are different types of apple like Red Apple ,Green Apple and etc </dd>
+        <dt>B.Banana</dt>
+        <dd>-There are different types of Banana like Red Banana,Raw Banana and etc.</dd>
     </dl>
     <iframe src="file:///C:/Users/Shaji/Desktop/Projects/restatunt/Not%20Eatable%20Resturant.html" width="80%"; height="80%" style="margin-left: 10%;";></iframe>
+    
+        <center>
+            <br><a href="file:///C:/Users/Shaji/Desktop/Projects/restatunt/Not%20Eatable%20Resturant.html" target="top">Click here to view the above page</a>
+        </center>
+    <br>
+    <div class="flexbox">
+        <div>0</div>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+    <div>
+        <img src="lessthan.png" alt="related image" style="float: left;margin: 10px 10px 10px 10px; width: 20px; height: 20px; border: 10px seagreen solid; background-color: chocolate;">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nesciunt, vero repudiandae voluptatibus ex necessitatibus nemo natus blanditiis? Minus soluta dolore nesciunt deleniti. Provident adipisci eum cupiditate saepe tempore similique.</p>    </div>
 </body>
 </html>
