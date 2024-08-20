@@ -1,11 +1,16 @@
- #student-form{
+body{
+   margin-left: 30%;
+}
+#student-form{
+   
     width: 60%;
     margin: 1px;
-    border: 15px solid khaki;
+    border: 15px solid darkcyan;
     padding:10px;
     background-color: gainsboro;
  }
  #student-form button{
+   width: 100px;
     padding:5px;
     border-radius: 3px;
     color: cornflowerblue;
@@ -17,5 +22,5 @@
     max-width: 200px;
  }
  .lab{
-    width: 1%;
+    width: 10%;
  }
