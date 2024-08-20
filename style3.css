@@ -1,0 +1,34 @@
+.btn-base{
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-dark{
+    color:rgb(7, 7, 133);
+    border: none;
+    background-color: darkgoldenrod;
+}
+.btn-light{
+    color: antiquewhite;
+    background-color:cornflowerblue;
+    border: none;
+}
+.btn-outline{
+    color:bisque;
+    border: none;
+    background-color:darkcyan;
+}
+.btn-style{
+    color:crimson;
+    background-color:burlywood;
+    border: 3px green solid;
+    width: 100px;
+    padding: 3px;
+    font-size: medium;
+    cursor: pointer;
+}
+.btn-style:hover{
+    color: darkolivegreen;
+    background-color: cadetblue;
+}

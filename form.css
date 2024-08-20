@@ -1,0 +1,21 @@
+ #student-form{
+    width: 60%;
+    margin: 1px;
+    border: 15px solid khaki;
+    padding:10px;
+    background-color: gainsboro;
+ }
+ #student-form button{
+    padding:5px;
+    border-radius: 3px;
+    color: cornflowerblue;
+    background-color: gainsboro;
+ }
+ #student-form input{
+    margin-left: 10px;
+    width: 60%;
+    max-width: 200px;
+ }
+ .lab{
+    width: 1%;
+ }
