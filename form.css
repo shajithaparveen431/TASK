@@ -2,7 +2,6 @@ body{
    margin-left: 30%;
 }
 #student-form{
-   
     width: 60%;
     margin: 1px;
     border: 15px solid darkcyan;
@@ -20,7 +19,4 @@ body{
     margin-left: 10px;
     width: 60%;
     max-width: 200px;
- }
- .lab{
-    width: 10%;
  }
