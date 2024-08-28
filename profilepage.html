@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            background-color: rgb(234, 72, 123);
+
+        }
+
+        #nu {
+            margin-left: 30px;
+            border: 0px solid rgb(110, 73, 145);
+            padding: 30px;
+            width: 30%;
+            height: 100%;
+            background-color: rgb(111, 76, 141);
+            display: flex;
+        }
+
+        #left {
+            margin-left: 30px;
+            border: 0px solid rgb(110, 73, 145);
+            padding: 30px;
+            width: 30%;
+            height: 100%;
+            background-color: rgb(111, 76, 141);
+            display: flex;
+
+        }
+
+        #right {
+            width: 600px;
+            margin-left: 50px;
+            border: 1px solid rgb(59, 32, 85);
+            padding: 40px;
+            background-color: rgb(111, 76, 141);
+            display: flex;
+        }
+
+        a {
+            color: rgb(206, 200, 200);
+            text-decoration: none;
+            font-weight: 400;
+        }
+
+        .pl {
+            margin: 30px;
+            padding: 8px;
+            border: 5px;
+            width: 60px;
+            height: 20px;
+            display: flex;
+            color: aliceblue;
+            text-align: center;
+            border-radius: 5px;
+            background-color: black;
+            cursor: pointer;
+        }
+
+        p,a:hover {
+            display: block;
+            cursor: pointer;
+            color:whitesmoke;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nu">
+        <div id="left">
+            <section>
+                <div>
+                    <img alt="add photo" src="girl.avatar.jpg"
+                        style="border: 1px; border-radius: 50px; width: 100px; height: 100px;">
+                    <br>
+                    <p style="font-style:italic; color:black;"><b>Samantha Josh</b></p>
+                </div>
+
+                <div>
+                    <h3>👤 Account</h3>
+                    <a href="#">Edit Profile</a><br>
+                    <a href="#">Password</a><br>
+                    <a href="#">Social Profile</a><br>
+                    <a href="#">Contact Details</a><br>
+                    <h3>🔔Notification</h3>
+                    <a href="#">Notification</a><br>
+                    <a href="#">App notification</a><br>
+                    <h3>☰ More</h3>
+                    <a href="#">Languages</a><br>
+                    <a href="#">Country</a><br>
+                    <a href="#">Reveiw</a><br>
+                    <a href="#"><b>
+                            <p class="pl">Log out</p>
+                        </b>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div id="right">
+            <section>
+                <div
+                    style="display: flex; width: 500px; height: 200px; background-color: rgb(184, 69, 192); border-radius: 15px; align-items: center;">
+                    <div style="display: flex;">
+                        <img src="girl.avatar.jpg" alt="girlimage"
+                            style="width: 150px; height: 150px; border-radius: 30px; margin-left: 40px;">
+                    </div>
+                    <span style="display: flex; margin-left: 50px;font-weight: 700; font-style: oblique;">
+                        Samanthaosh_M012<br>Samantha Josh</span>
+                </div>
+                <div>
+                    <h3>Website</h3>
+                    <input type="text" placeholder="Website"
+                        style="color:antiquewhite; background-color:rgb(24, 19, 19); border-radius: 15px; width: 500px; height: 25px; padding: 5px; margin: 2px;">
+                </div>
+                <div>
+                    <h3>Bio</h3>
+                    <input type="text" placeholder="Bio" value name
+                        style=" color:antiquewhite; background-color:rgb(24, 19, 19); border-radius: 15px; width: 500px; height: 25px; padding: 5px; margin: 2px;">
+                </div>
+                <div>
+                    <h3>Gender</h3>
+                    <select type="text" placeholder="Gender" value name
+                        style=" color:antiquewhite; background-color:rgb(24, 19, 19); border-radius: 15px; width: 510px; height: 30px; padding: 5px; margin: 2px;">
+                        <option>Female</option>
+                        <option>Male</option>
+                        <option>Others</option>
+                    </select>
+                </div>
+                <input type="submit" class="pl" style=" margin-left: 200px; width: 80px; height: 30px;">
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>
