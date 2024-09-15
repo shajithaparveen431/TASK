@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+    <style>
+        .top{
+            display: flex;
+            margin-left: 20px;
+            border: 2px ;
+            border-radius: 4px;
+        }
+        img{
+
+            margin-left: 50px;
+        }
+        span{
+            font-weight:lighter;
+             padding-top :20px ;
+             margin-left: 10px;
+        }
+        .tope {
+    text-align: center;
+    display: flex;
+    margin-left: 20px;
+    border: 2px;
+    border-radius: 4px;
+}
+
+#pl{
+
+    margin-left: 50px;
+}
+
+span {
+    font-weight: lighter;
+    padding-top: 20px;
+    margin-right: 600px;
+}
+
+table {
+    margin-left: 50px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+input {
+    width: 200px;
+    height: 21px;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1.50px;
+    background-color: rgb(243, 246, 246);
+    border-color: rgb(239, 231, 231);
+    outline: none;
+
+}
+
+td {
+    color: rgb(49, 46, 46);
+}
+
+label {
+    font-size: 15px;
+    font-weight: 10px;
+}
+
+button {
+    width: 150px;
+    height: 25px;
+    outline: none;
+    color: white;
+    border-radius: 4px;
+    margin-left: 200px;
+    background-color: orangered;
+}
+    </style>
+</head>
+<body>
+    <div class="top">
+        <img src="ava.jpg" alt="related image" width="100px" height="90px">
+        <span><b>Sara Asitha</b><br>New jersey</span>
+    </div><br><br>
+
+    <table>
+        <tr>
+            <td><label>First Name</label></td>
+            <td><label>Last Name</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="First Name"></td>
+            <td><input type="text" placeholder="Last Name"></td>
+        </tr>
+    </table><br>
+    <table>
+        <tr>
+            <td><label>Email Address</label></td>
+            <td><label>Phone Number</label></td>
+        </tr>
+        <tr>
+            <td><input type="email" placeholder="email"></td>
+            <td><input type="tel" placeholder="phone Number"></td>
+        </tr>
+    </table><br>
+    <table>
+        <tr>
+            <td><label>Location</label></td>
+            <td><label>Postal Code</label></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="e.g. New jersey"></td>
+            <td><input type="text" placeholder="+012345"></td>
+        </tr>
+    </table><br>
+    <button>Save Change</button>
+
+</body>
+</html>
