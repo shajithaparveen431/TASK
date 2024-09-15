@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Info</title>
     <style>
-        body{
+        body {
+            background-color: rgb(189, 189, 255);
             align-items: center;
             margin: 10px;
         }
@@ -51,7 +53,11 @@
 
         label {
             font-size: 15px;
-            font-weight: 10px;
+            font-weight: 550;
+        }
+
+        .bt {
+            display: flex;
         }
 
         button {
@@ -60,15 +66,24 @@
             outline: none;
             color: white;
             border-radius: 4px;
-            margin-left: 200px;
+            margin-left: 100px;
             background-color: orangered;
+            justify-content: space-around;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        .but{
+            margin-left: 10px;
         }
     </style>
 </head>
 
 <body>
     <div class="top">
-        <img src="ava.jpg" alt="related image" width="100px" height="90px">
+        <img src="ava.jpg" alt="related image" width="100px" height="90px" style="border-radius:10px;">
         <span><b>Sara Asitha</b><br>New jersey</span>
     </div><br><br>
 
@@ -102,7 +117,10 @@
             <td><input type="text" placeholder="+012345"></td>
         </tr>
     </table><br>
-    <button>Save Change</button>
+    <div class="bt">
+        <button>Save Change</button>
+        <button class="but"><a href="C:\Users\Shaji\Desktop\Projects\FED\TASK\T20S.html\homepage.html">Home</a></button>
+    </div>
 </body>
 
 </html>
