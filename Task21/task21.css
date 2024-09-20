@@ -1,0 +1,112 @@
+body {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+.ful {
+    display: flex;
+    height: 100%;
+}
+
+.left {
+    min-width: 200px;
+    max-width: 40%;
+    height: 600px;
+    color: white;
+    background-color: rgb(56, 47, 117);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.one {
+    display: flex;
+    margin-top: 10px;
+}
+
+.pri {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: rgba(255, 250, 250, 0.954);
+}
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.poy {
+    color: rgb(133, 157, 176);
+    text-decoration: none;
+}
+
+.poy:hover,
+img {
+    color: rgb(228, 227, 227);
+    font-weight: bold;
+}
+
+.right {
+    min-width: 85%;
+    max-width: 80%;
+    height: 600px;
+    background-color: rgb(196, 193, 214);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h2 {
+    margin-left: 15px;
+}
+
+.pot {
+    padding: 15px;
+    display: inline;
+    color: black;
+}
+
+a{
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.por:hover {
+    font-weight: bold;
+    background-color: rgb(75, 75, 161);
+}
+
+.bot{
+    min-width: 95%;
+    height: 450px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(222, 222, 222);
+    display: flex;
+}
+
+label,input{
+    margin-left: 15px;
+    color: black;
+    padding: 2px;
+    border-radius: 2px;
+    border-style: none;
+    height: 20px;
+}
+.pow{
+    margin-left: 99px;
+}
+
+.poa{
+    width: 95%;
+}
+.pod{
+    margin-left: 119px;
+}

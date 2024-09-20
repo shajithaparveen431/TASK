@@ -22,6 +22,7 @@ a {
     width: 25%;
     border-radius: 5px;
     text-align: left;
+    border: 1.50px solid gray;
 }
 
 .st {
@@ -50,8 +51,7 @@ h4 {
     display: flex;
     width: 40%;
     height: 400px;
-    margin-left: 10px;
-    
+    margin-left: 10px;    
 }
 
 .tope {
@@ -108,10 +108,4 @@ button {
     border-radius: 4px;
     margin-left: 200px;
     background-color: orangered;
-}
-.qaz{
-    border-right: 1.50px rgb(184, 183, 183) solid;
-    margin-left: 100px;
-    height: 100%;
-    display: block;
 }
