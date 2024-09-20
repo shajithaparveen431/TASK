@@ -1,5 +1,6 @@
 body {
-    width: 100%;
+    margin: 10px;
+    width: 95%;
     height: 100%;
     border-radius: 2px;
 }
@@ -45,8 +46,7 @@ li {
     text-decoration: none;
 }
 
-.poy:hover,
-img {
+.poy:hover{
     color: rgb(228, 227, 227);
     font-weight: bold;
 }
@@ -96,9 +96,10 @@ label,input{
     margin-left: 15px;
     color: black;
     padding: 2px;
-    border-radius: 2px;
+    border-radius: 5px;
     border-style: none;
     height: 20px;
+    text-align:center;
 }
 .pow{
     margin-left: 99px;
@@ -109,4 +110,23 @@ label,input{
 }
 .pod{
     margin-left: 119px;
+}
+.pof{
+    margin-left: 110px;
+    margin-top: 10px;
+    color: black;
+    padding: 12px;
+    border-radius: 12px;
+    border-style: none;
+    height: 20px;
+}
+
+button{
+    width: 120px;
+    height: 25px;
+    font-weight: 550;
+    margin-left: 120px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color:rgb(92, 76, 197); ;
 }
