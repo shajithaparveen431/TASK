@@ -130,3 +130,119 @@ button{
     border: 1px solid black;
     background-color:rgb(92, 76, 197); ;
 }
+
+@media screen and (min-width:254px) {
+    body{
+        background-color: rgb(237, 234, 252);
+    }
+    
+    .right{
+        width: 500px;
+    }
+    input{
+        width: 100px;
+    }
+    .poa{
+        width: 220px;
+    }
+    .pof{
+        margin-left: 60px;
+    }
+    .pow{
+        margin-left: 35px;
+    }
+}
+@media screen and (min-width:546px) {
+    body{
+        background-color: rgb(237, 234, 252);
+    }
+    .right{
+        width: 500px;
+    }
+    input{
+        width: 150px;
+    }
+    .poa{
+        width: 320px;
+    }
+    .pof{
+        margin-left: 110px;
+    }
+    .pow{
+        margin-left: 90px;
+    }
+}
+@media screen and (min-width:768px) {
+    body{
+        background-color: rgb(237, 234, 252);
+    }
+    .ful{
+        margin-left: 30px;
+        width:700px;
+    }
+    .right{
+        width: 500px;
+    }
+    input{
+        width: 200px;
+    }
+    .poa{
+        width: 420px;
+    }
+    .pof{
+        margin-left: 150px;
+    }
+    .pow{
+        margin-left: 140px;
+    }
+}
+
+@media screen and (min-width:922x) {
+    body{
+        background-color: rgb(237, 234, 252);
+    }
+    .ful{
+        margin-left: 100px;
+        width:700px;
+    }
+    .right{
+        width: 500px;
+    }
+    input{
+        width: 200px;
+    }
+    .poa{
+        width: 420px;
+    }
+    .pof{
+        margin-left: 150px;
+    }
+    .pow{
+        margin-left: 140px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body{
+            background-color: rgb(237, 234, 252);
+    }
+    .ful{
+        margin-left: 230px;
+        width:700px;
+    }
+    .right{
+        width: 500px;
+    }
+    input{
+        width: 200px;
+    }
+    .poa{
+        width: 420px;
+    }
+    .pof{
+        margin-left: 150px;
+    }
+    .pow{
+        margin-left: 135px;
+    }
+} 
