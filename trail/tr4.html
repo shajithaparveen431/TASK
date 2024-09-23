@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,
+        h1 {
+            width: 100px;
+            height: 100px;
+            background-color: blanchedalmond;
+            transition: width 5s;
+            -webkit-transition: width 5s;
+        }
+
+        div {
+            position: fixed;
+            -webkit-transition-timing-function: linear;
+        }
+
+        div {
+            transition-timing-function: linear;
+        }
+
+        div:hover {
+            width: 400px;
+        }
+
+        h1 {
+            transition: 1s;
+            -webkit-transition: 1s;
+            -webkit-transition-timing-function: linear;
+            transition-timing-function: linear;
+        }
+
+        h1:hover {
+            width: 500px;
+        }
+
+        h2 {
+            width: 100px;
+            height: 100px;
+            border: 2px solid;
+            border-radius: 50px;
+            background-color: blue;
+            transition: width 2s;
+            -webkit-transition: 2s;
+            -webkit-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+        }
+
+        h2:hover {
+            height: 200px;
+            width: 500px;
+        }
+
+        h3 {
+            background-color: aquamarine;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            animation: shake .5s ease-in-out infinite;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translateX(0);
+            }
+
+            20% {
+                transform: translateX(-10px);
+            }
+
+            40% {
+                transform: translateX (10px);
+            }
+
+            60% {
+                transform: translateX(-10px);
+            }
+
+            80% {
+                transform: translateX(10px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        h4 {
+            height: 30px;
+            width: 300px;
+            position: relative;
+            border-radius: 50%;
+            background-color: cadetblue;
+            animation: bouncein .10s ease-in-out infinite;
+        }
+
+        @keyframes bouncein{
+            0% {
+                transform: translateX(0.1);
+                opacity: 0;
+            }
+
+            60% {
+                transform: translateX(1.2);
+                opacity: 8;
+            }
+
+            /* 40% {
+                transform: translateX(20%);
+            }
+
+            60% {
+                transform: translateX(-20%);
+            }
+
+            80% {
+                transform: translateX(20%);
+            }
+            100%{
+                transform: translateX(0%);
+            } */
+        }
+        h5 {
+            height: 30px;
+            width: 300px;
+            position: relative;
+            border-radius: 50%;
+            background-color: cadetblue;
+            animation: bouncein .10s ease-in-out infinite;
+        }
+
+        @keyframes bouncein{
+            0% {
+                transform: translateX(0.1);
+                opacity: 0;
+            }
+
+            60% {
+                transform: translateX(1.2);
+                opacity: 80;
+            }
+
+            /* 40% {
+                transform: translateX(20%);
+            }
+
+            60% {
+                transform: translateX(-20%);
+            }
+
+            80% {
+                transform: translateX(20%);
+            }
+            100%{
+                transform: translateX(0%);
+            } */
+        }
+        h6 {
+            height: 30px;
+            top:350;
+            left: 0;
+            bottom: 10px;
+            position: relative;
+            display: block;
+            background-color: blue;
+            transition: width 0.2s;
+            animation:underline 10s .5s;
+        }
+
+        @keyframes underline{
+            from{
+                width: 0%;
+            }
+
+            to{
+                width:90%;
+            }
+
+            /* 40% {
+                transform: translateX(20%);
+            }
+
+            60% {
+                transform: translateX(-20%);
+            }
+
+            80% {
+                transform: translateX(20%);
+            }
+            100%{
+                transform: translateX(0%);
+            } */
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>dafsg</h1>
+    </div>
+    <h1>adasadvfwd</h1>
+    <h2>ljhgfcx</h2>
+    <h3>ljjhh</h3>
+    <h4></h4>
+    <h5></h5>
+    <h6></h6>
+</body>
+
+</html>
