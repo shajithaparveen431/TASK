@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .iv,
+        /* .iv,
         h1 {
             width: 100px;
             height: 100px;
@@ -57,6 +57,7 @@
         }
 
         h3 {
+            text-align: justify;
             background-color: aquamarine;
             height: 200px;
             width: 200px;
@@ -108,9 +109,9 @@
             60% {
                 transform: translateX(1.2);
                 opacity: 8;
-            }
+            } */
 
-            /* 40% {
+        /* 40% {
                 transform: translateX(20%);
             }
 
@@ -124,7 +125,7 @@
             100%{
                 transform: translateX(0%);
             } */
-        }
+        /* }
         h5 {
             height: 30px;
             width: 300px;
@@ -143,9 +144,9 @@
             60% {
                 transform: translateX(1.2);
                 opacity: 80;
-            }
+            } */
 
-            /* 40% {
+        /* 40% {
                 transform: translateX(20%);
             }
 
@@ -159,7 +160,7 @@
             100%{
                 transform: translateX(0%);
             } */
-        }
+        /* }
         h6 {
             height: 30px;
             top:350;
@@ -179,9 +180,9 @@
 
             to{
                 width:90%;
-            }
+            } */
 
-            /* 40% {
+        /* 40% {
                 transform: translateX(20%);
             }
 
@@ -195,7 +196,7 @@
             100%{
                 transform: translateX(0%);
             } */
-        }
+        /* }
         p{
             width: 100px;
             height: 100px;
@@ -211,35 +212,83 @@
             transform: rotate(180deg);
         }
         .poi{
-            width: 50px;
+            background-color: hotpink;
+            width: 100px;
             height: 40px;
-            background-color: violet;
             -webkit-transition: 5s;
             transition: width 2s,height 2s, transform 2s;
         }
         .poi:hover{
+            background-color: violet;
             width: 100px;
             height: 100px;
             -webkit-transform:rotate(360deg);
             transform: rotate(360deg);
+        } */
+
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: purple;
+            -webkit-transition: width 5s,height 5s, transform 2s;
+            transition-duration: 5s;
+            transition-delay: 2s;
+            transition-timing-function:ease-out; 
         }
+        /* div:hover{
+            transform: rotate(360deg);
+            width: 150px;
+        } */
+
+        h1{
+            width: 80px;
+            height: 40px;
+            margin: 10px;
+            border: 1px solid firebrick;
+            text-align: center;
+            background-color: violet;
+            /* transition: width 5s, height 5s, transform 5s;
+            
+            transition-timing-function:ease-in; */
+            transition-delay: 2s;
+            transition-duration: 5s;
+            transition: transform 0.50s ease;
+        }
+        h1:hover{
+            /* width: 70px;
+            transform: rotate(360deg); */
+            transform: scale(1.1);
+        }
+        /* Initial state */
+.element {
+  transition: transform 0.5s ease;
+}
+
+/* Hover state */
+.element:hover {
+  transform: scale(1.1);
+}
+
     </style>
 </head>
 
 <body>
-    <div class="iv">
+    <div><br>
+        <h1>hello</h1>
+    </div>
+    <!-- <div class="iv">
         <h1>dafsg</h1>
     </div>
     <h1>adasadvfwd</h1>
     <h2>ljhgfcx</h2>
-    <h3>ljjhh</h3>
+    <h3>ljjhhmjkhjghv</h3>
     <h4></h4>
     <h5></h5>
     <h6></h6>
-    <p></p>
+    <p>welcsac</p>
     <div>
-        <p class="poi"></p>
-    </div>
+        <p class="poi" style="text-align:center; padding: 5px; margin: 2px; border: 2px solid;">welcome</p>
+    </div> -->
 </body>
 
 </html>
