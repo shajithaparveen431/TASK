@@ -31,13 +31,14 @@ body {
     border-bottom-style: solid;
 
 }
-
-
-
 a {
     color: rgb(2, 151, 210);
 }
-
+.ai{
+    color: aliceblue;
+    font-weight: bold;
+    text-decoration: none;
+}
 #si {
     font-size: x-small;
     margin-left: 80px;
