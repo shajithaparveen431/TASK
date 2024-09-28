@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        /* .iv,
+        .iv,
         h1 {
             width: 100px;
             height: 100px;
@@ -109,9 +109,9 @@
             60% {
                 transform: translateX(1.2);
                 opacity: 8;
-            } */
+            } 
 
-        /* 40% {
+         40% {
                 transform: translateX(20%);
             }
 
@@ -124,8 +124,8 @@
             }
             100%{
                 transform: translateX(0%);
-            } */
-        /* }
+            } 
+        }
         h5 {
             height: 30px;
             width: 300px;
@@ -141,12 +141,12 @@
                 opacity: 0;
             }
 
-            60% {
+            20% {
                 transform: translateX(1.2);
                 opacity: 80;
-            } */
+            } 
 
-        /* 40% {
+            40% {
                 transform: translateX(20%);
             }
 
@@ -159,8 +159,8 @@
             }
             100%{
                 transform: translateX(0%);
-            } */
-        /* }
+            } 
+        }
         h6 {
             height: 30px;
             top:350;
@@ -180,9 +180,9 @@
 
             to{
                 width:90%;
-            } */
+            } 
 
-        /* 40% {
+         40% {
                 transform: translateX(20%);
             }
 
@@ -195,8 +195,8 @@
             }
             100%{
                 transform: translateX(0%);
-            } */
-        /* }
+            } 
+         }
         p{
             width: 100px;
             height: 100px;
@@ -224,9 +224,9 @@
             height: 100px;
             -webkit-transform:rotate(360deg);
             transform: rotate(360deg);
-        } */
+        } 
 
-        div{
+        .olmn{
             width: 100px;
             height: 100px;
             background-color: purple;
@@ -235,60 +235,71 @@
             transition-delay: 2s;
             transition-timing-function:ease-out; 
         }
-        /* div:hover{
+     .olmn:hover{
             transform: rotate(360deg);
             width: 150px;
-        } */
+        }
 
-        h1{
+        .lmn{
             width: 80px;
             height: 40px;
             margin: 10px;
             border: 1px solid firebrick;
             text-align: center;
             background-color: violet;
-            /* transition: width 5s, height 5s, transform 5s;
-            
-            transition-timing-function:ease-in; */
+            transition: width 5s, height 5s, transform 5s;
+            transition-timing-function:ease-in;
             transition-delay: 2s;
             transition-duration: 5s;
             transition: transform 0.50s ease;
         }
-        h1:hover{
-            /* width: 70px;
-            transform: rotate(360deg); */
+        .lmn:hover:hover{
+            width: 70px;
+            transform: rotate(360deg);
             transform: scale(1.1);
         }
-        /* Initial state */
-.element {
-  transition: transform 0.5s ease;
-}
 
-/* Hover state */
-.element:hover {
-  transform: scale(1.1);
-}
+        .qaz{
+            color: bisque;
+            background-color: brown;
+            width: 70px;
+            height: 100px;
+            text-align: center;
+            border-top-left-radius:25px ;
+            border-top-right-radius: 25px;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 0px;
+            display: flex;
+            font-weight: 800;
+        }
 
     </style>
 </head>
 
 <body>
-    <div><br>
-        <h1>hello</h1>
+    <div class="olmn"><br>
+        <h1 class="lmn">hello</h1>
     </div>
-    <!-- <div class="iv">
+    <div class="iv">
         <h1>dafsg</h1>
     </div>
     <h1>adasadvfwd</h1>
     <h2>ljhgfcx</h2>
     <h3>ljjhhmjkhjghv</h3>
     <h4></h4>
-    <h5></h5>
-    <h6></h6>
+    <h5>h5</h5>
+    <h6>this is h6</h6>
     <p>welcsac</p>
     <div>
         <p class="poi" style="text-align:center; padding: 5px; margin: 2px; border: 2px solid;">welcome</p>
-    </div> -->
+    </div>
+    <div class="qwe" style="display: inline-flex;">
+        <p class="qaz">Enter details for log in</p>
+        <p style="display: flex; width: 10px; height: 10px; background-color: brown; margin-top: 110px; margin-left: 10px; border-radius: 10px;"></p>     
+        <p style="display: flex; width: 10px; height: 10px; background-color: brown; margin-top: 110px; margin-left: 10px; border-radius: 10px;"></p>
+        <p style="display: flex; width: 10px; height: 10px; background-color: brown; margin-top: 110px; margin-left: 10px; border-radius: 10px;"></p>
+
+    </div>
 </body>
 
 </html>

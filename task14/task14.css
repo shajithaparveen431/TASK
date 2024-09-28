@@ -21,6 +21,44 @@ body {
     text-align: center;
     width: 60%;
 }
+.qaz{
+    margin-left: 20px;
+    display: flex;
+    width: 160px;
+    height: 22px;
+    font-weight: 800;
+    color: bisque;
+    text-align: center;
+    background-color: brown;
+    border-top-left-radius:0px ;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius: 0px;
+    animation: bouncein 5s ease-in infinite ;
+}
+@keyframes bouncein{
+    0%{
+        transform: translateX(20%);
+    }
+    20% {
+        transform: translateX(20%);
+    } 
+
+    40%{
+        transform: translateX(20%);
+    }
+
+    60% {
+        transform: translateX(-20%);
+    }
+
+    80% {
+        transform: translateX(20%);
+    }
+    100%{
+        transform: translateX(-20%);
+    } 
+}
 
 .in {
     text-align: left;
