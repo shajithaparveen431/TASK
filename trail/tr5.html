@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2D</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 80px;
+            background-color: darkcyan;
+            animation: shimmy 5s infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes shimmy {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            100% {
+                transform: translate(200px, 50px);
+            }
+        }
+        .nor{
+            height: 100px;
+            width: 100px;
+            background-color: firebrick;
+            margin-left: 3px;
+            margin-right: 3px;
+            animation: roll 5s infinite;
+            opacity: 0.90;
+            display: inline-block;
+        }
+        @keyframes roll{
+            0%{
+                transform: rotate();
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        body,html{
+            height: 100%;
+        }
+        body{
+            display: flex;
+            background-color: violet;
+            align-items: center;
+            justify-content: center;
+        }
+        .sca{
+            height: 50px;
+            width: 50px;
+            transform: scale(1.10);
+            background-color: khaki;
+        }
+        .scs{
+            width: 50px;
+            height: 50px;
+            background-color: forestgreen;
+        }
+        .ske{
+            width: 60px;
+            height: 60px;
+            background-color: fuchsia;
+            animation: skew 1s infinite;
+            transform: skew(20deg);
+            animation-direction:alternate;
+            opacity: .80;
+        }
+        @keyframes skew{
+            0%{
+                transform: skewX(45deg);
+            }
+            100%{
+                transform: skewX(-45deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ratione libero laborum sunt error, excepturi
+            eius laboriosam! Magni consequuntur eaque quisquam fugiat cum sint nihil quibusdam totam quaerat, sequi
+            quas.</p>
+    </div>
+    <div class="nor"></div>
+    <div class="nor"></div>  
+    <div class="sca"></div>
+    <div class="scs"></div>
+    <div class="ske"></div>
+    <div ></div>
+</body>
+
+</html>

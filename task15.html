@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: brown;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        body,html{
+            height: 100%;
+        }
+
+        h2 {
+            width: 200px;
+            height: 150px;
+            background-color: khaki;
+            text-align: center;
+            padding-top: 50px;
+            border-radius: 50%;
+            animation: shake 1.20s infinite;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        @keyframes shake {
+            0% {
+                transform: translateY(0);
+            }
+
+            20% {
+                transform: translateY(25px);
+            }
+
+            40% {
+                transform: translateY(-50px);
+            }
+
+            60% {
+                transform: translateY(100px);
+            }
+
+            80% {
+                transform: translateY(-50px);
+            }
+
+            100% {
+                transform: translateY(25px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Hey there, Welcome back</h2>
+        <h2>This is animated bouncing Ball</h2>
+    </div>
+</body>
+
+</html>
