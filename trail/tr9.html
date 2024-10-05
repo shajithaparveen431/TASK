@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        .grid{
+            display:grid;
+            grid-template-columns: repeat(5,ifr);
+            gap: 10px;
+            align-items: start;
+            justify-content: center;
+        }
+        .grid img{
+            border: 1px solid rgba(0,0,0,0.5);
+            box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.5);     
+            max-width: 100px;  
+        }
+        .grid img:nth-child(6){
+            grid-column: span 4;
+        }
+    </style>
+</head>
+<body>
+    <main class="grid">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+        <img src="girl.avatar.jpg" alt="related imae">
+    </main>
+</body>
+</html>
