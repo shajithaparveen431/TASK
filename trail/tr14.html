@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 16 model</title>
+    <style>
+        @import url(https://fonts.googleapis.com/css?family=Roboto);
+
+        body {
+            font-family: Roboto, sans-serif;
+        }
+
+        #chart {
+            max-width: 650px;
+            margin: 35px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="chart">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script>
+        var options = {
+            chart: {
+                type: 'bar'
+            },
+            series: [{
+                name: 'sales',
+                data: [30, 40, 45, 50, 49, 60, 70, 91, 125]
+            }],
+            xaxis: {
+                categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998, 1999]
+            }
+        }
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+
+        chart.render();
+
+
+        var options = {
+          series: [{
+          data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+        }],
+          chart: {
+          type: 'bar',
+          height: 350
+        },
+        plotOptions: {
+          bar: {
+            borderRadius: 4,
+            borderRadiusApplication: 'end',
+            horizontal: true,
+          }
+        },
+        dataLabels: {
+          enabled: false
+        },
+        xaxis: {
+          categories: ['South Korea', 'Canada', 'United Kingdom', 'Netherlands', 'Italy', 'France', 'Japan',
+            'United States', 'China', 'Germany'
+          ],
+        }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script>
+</body>
+
+</html>
