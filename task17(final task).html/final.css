@@ -1,0 +1,116 @@
+* {
+    margin: 1px;
+    padding: 1px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(227, 232, 237);
+}
+
+.full {
+    display: flex;
+}
+
+.menu {
+    width: 20%;
+    height: 200px;
+    /* background-color: white; */
+    margin-left: 10px;
+    display: inline-block;
+
+}
+
+.up {
+    display: flex;
+    background-color: rgb(174, 190, 194);
+    align-items: flex-end;
+}
+
+.img {
+    margin-left: 5px;
+
+}
+
+.tab {
+    margin-left: 30%;
+    padding: 1px;
+    text-align: right;
+}
+
+.down {
+    background-color: white;
+}
+
+.anc {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.anc:hover,
+.por:hover {
+    font-weight: bold;
+    color: rgb(74, 74, 252);
+}
+
+.right {
+    display: inline;
+    width: 75%;
+    background-color: rgb(227, 232, 237);
+}
+
+.top {
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 80%;
+    background-color:white;
+    border-radius: 5px;
+    display: flex;
+}
+
+.taskbar{
+    display: flex;
+    margin-left: 5px;
+}
+.po {
+    text-decoration: none;
+}
+
+.tasbar{
+    display: inline;
+    margin-top: 5px;
+}
+
+.por {
+    text-decoration: none;
+    color: black;
+}
+.container,.row{
+    display: flex;
+    align-items: center;
+    margin:10px 15px 15px 15px;
+}
+.col{
+    border: black solid;
+    background-color: white;
+    border-style: hidden;
+    display: flex;
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+    height: 90px;
+    width: 250px;
+    margin:0px 15px  15px 15px;
+}
+.co{
+    display: inline-block;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 10px;
+}
+
