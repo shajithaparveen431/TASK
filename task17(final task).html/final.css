@@ -178,7 +178,26 @@ h4 {
     background-color: white;
     margin-left: 50px;
     margin-top: 1px;
-    width: 600px auto;
+    width: 600px;
     height: 200px auto;
+}
 
+.upda {
+    color: rgb(112, 112, 234);
+    background-color: #d2ecf5;
+    width: 150px;
+    height: 17px;
+    text-align: center;
+    font-size: small;
+    margin-right: -25px
+}
+
+.orde {
+    display: flex;
+    background-color: white;
+    width: 280px;
+    padding: 7px;
+    height: 40px;
+    margin: 5px;
+    margin-top: 8px;
 }
