@@ -237,7 +237,7 @@
 
             <div>
                 <div style="display: flex;">
-                    <div id="chart">
+                    <div id="barChart">
                     </div>
                     <div>
                         <div style="display: flex">
@@ -248,9 +248,10 @@
                             velit amet Dance labortis return arc actor varius cursur. mi nukka droped just at valuable
                             libero.</p>
                         <br>
-                        <div class="orde"> 
+                        <div class="orde">
                             <p>Neptune- v1.0</p>
-                            <p style="margin-left: 110px; color: palevioletred;">14% <b style="font-size: x-large;">^</b></p>
+                            <p style="margin-left: 110px; color: palevioletred;">14% <b
+                                    style="font-size: x-large;">^</b></p>
                         </div>
                         <div class="orde">
                             <p>Neptune- v2.9</p>
@@ -258,11 +259,13 @@
                         </div>
                         <div class="orde">
                             <p>Ume- v3.4</p>
-                            <p style="margin-left: 133px;  color: palevioletred;">31% <b style="font-size: x-large;">^</b></p>
+                            <p style="margin-left: 133px;  color: palevioletred;">31% <b
+                                    style="font-size: x-large;">^</b></p>
                         </div>
                         <div class="orde">
                             <p>circt- v4.6</p>
-                            <p style="margin-left: 135px;  color: palevioletred;">17% <b style="font-size: x-large;">^</b></p>
+                            <p style="margin-left: 135px;  color: palevioletred;">17% <b
+                                    style="font-size: x-large;">^</b></p>
                         </div>
                         <div class="orde">
                             <p>connect- v1.7</p>
@@ -271,57 +274,108 @@
                     </div>
                 </div>
             </div>
+
+            <div>
+                <div id="areaChart">
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="foot">
+                    <h4 style="margin-top: -13px; margin-left: -10px;">About</h4><br>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa aliquid perspiciatis odit dolore
+                        commodi facilis aspernatur veritatis adipisci veniam, repudiandae, dolorem, exercitationem sed
+                        eveniet eius at id deserunt sit. Quisquam.</p>
+                </div>
+                <div class="footer">
+                    <h4 style="margin-top: 10px; margin-left: 10px;">Company policies</h4><br>
+                    <div style="display: flex;">
+                    <img src="girl.png" alt="relimg" width="80px" height="90px" style="margin-left: 10px; margin-top: -19px;border-radius: 50%; display: flex;">
+                    <p>Lorem ipsum dolor sit amet consectetur impedit illum quas?</p>
+                </div>
+                <a  href="#" style="text-decoration: none; background-color: lightblue; border-radius: 2px; font-size :14px;; padding: 3px;color: black; margin-left: 40px;">click here for more</a>
+                <a href="#" style="text-decoration: none; background-color: lightblue; border-radius: 2px; font-size:14px;  padding: 3px; color: black; margin-left: 20px;">more options</a>
+                </div>
+            </div>
         </div>
-    </div>
 
-    </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
-    <script>
-        var options = {
-            series: [{
-                data: [44, 55, 41, 64, 22, 43, 21]
-            }, {
-                data: [53, 32, 33, 52, 13, 44, 32]
-            }],
-            chart: {
-                type: 'bar',
-                height: 430
-            },
-            plotOptions: {
-                bar: {
-                    horizontal: true,
-                    dataLabels: {
-                        position: 'top',
-                    },
-                }
-            },
-            dataLabels: {
-                enabled: true,
-                offsetX: -6,
-                style: {
-                    fontSize: '12px',
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script>
+            var barOptions = {
+                series: [{
+                    data: [44, 55, 41, 64, 22, 43, 21]
+                }, {
+                    data: [53, 32, 33, 52, 13, 44, 32]
+                }],
+                chart: {
+                    type: 'bar',
+                    height: 430
+                },
+                plotOptions: {
+                    bar: {
+                        horizontal: true,
+                        dataLabels: {
+                            position: 'top',
+                        },
+                    }
+                },
+                dataLabels: {
+                    enabled: true,
+                    offsetX: -6,
+                    style: {
+                        fontSize: '12px',
+                        colors: ['#fff']
+                    }
+                },
+                stroke: {
+                    show: true,
+                    width: 1,
                     colors: ['#fff']
-                }
-            },
-            stroke: {
-                show: true,
-                width: 1,
-                colors: ['#fff']
-            },
-            tooltip: {
-                shared: true,
-                intersect: false
-            },
-            xaxis: {
-                categories: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
-            },
-        };
+                },
+                tooltip: {
+                    shared: true,
+                    intersect: false
+                },
+                xaxis: {
+                    categories: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
+                },
+            };
 
-        var chart = new ApexCharts(document.querySelector("#chart"), options);
-        chart.render();
-    </script>
+            var barChart = new ApexCharts(document.querySelector("#barChart"), barOptions);
+            barChart.render();
 
+            var areaOptions = {
+                series: [{
+                    name: 'series1',
+                    data: [31, 40, 28, 51, 42, 109, 100]
+                }, {
+                    name: 'series2',
+                    data: [11, 32, 45, 32, 34, 52, 41]
+                }],
+                chart: {
+                    height: 150,
+                    type: 'area'
+                },
+                dataLabels: {
+                    enabled: false
+                },
+                stroke: {
+                    curve: 'smooth'
+                },
+                xaxis: {
+                    type: 'datetime',
+                    categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+                },
+                tooltip: {
+                    x: {
+                        format: 'dd/MM/yy HH:mm'
+                    },
+                },
+            };
+
+            var areaChart = new ApexCharts(document.querySelector("#areaChart"), areaOptions);
+            areaChart.render();
+
+        </script>
 </body>
 
 </html>
