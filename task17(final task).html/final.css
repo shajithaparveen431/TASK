@@ -174,7 +174,7 @@ li{
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 #barChart {
-    max-width: 600px;
+    min-width: 600px;
     margin: 35px;
     background-color: white;
     margin-left: 50px;
@@ -219,7 +219,8 @@ li{
 }
 .foot{
     background-color: white;
-    width: 550px;
+    min-width: 550px;
+    max-width: 550px;
     height: 80px;
     margin-left: 50px;
     padding: 40px;
@@ -227,7 +228,8 @@ li{
 }
 .footer{
     background-color: white;
-    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
     height: 158px;
     margin-left: 20px;
 }
