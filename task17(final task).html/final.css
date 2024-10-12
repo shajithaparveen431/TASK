@@ -12,12 +12,11 @@ html {
 
 .full {
     display: flex;
+    width: 100%;
 }
 
 .menu {
-    width: 20%;
     height: 200px;
-    /* background-color: white; */
     margin-left: 10px;
     display: inline-block;
 
@@ -27,6 +26,7 @@ html {
     display: flex;
     background-color: rgb(174, 190, 194);
     align-items: flex-end;
+    width: 300px;
 }
 
 .img {
@@ -66,7 +66,7 @@ html {
 .top {
     margin-left: 50px;
     margin-top: 10px;
-    width: 80%;
+    width: 900px;
     background-color: white;
     border-radius: 5px;
     display: flex;
@@ -74,7 +74,7 @@ html {
 
 .taskbar {
     display: flex;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 .po {
@@ -84,11 +84,17 @@ html {
 .tasbar {
     display: inline;
     margin-top: 5px;
+    
 }
 
 .por {
     text-decoration: none;
     color: black;
+    
+}
+li{
+    margin: 1px;
+    margin-left: ;
 }
 
 .container,
@@ -195,11 +201,16 @@ html {
     padding: 7px;
     height: 40px;
     margin: 5px;
-    margin-top: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.orde:hover{
+    font-weight: bolder;
 }
 
 #areaChart {
-    max-width: 990px;
+    max-width: 880px;
     margin: 35px auto;
     background-color: white;
     margin-left: 50px;
@@ -220,4 +231,22 @@ html {
     width: 300px;
     height: 158px;
     margin-left: 20px;
+}
+.btn{
+    background-color: plum;
+    color: rgb(145, 10, 32);
+    padding: 2px;
+    border-style: none;
+    width: 80px;
+}
+.btnn{
+    background-color: rgb(188, 188, 249);
+    color: blue;
+    padding: 2px;
+    border-style: none;
+    width: 80px;
+}
+
+.btn:hover,.btnn:hover{
+    font-weight: bolder;
 }
