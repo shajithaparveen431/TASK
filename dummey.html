@@ -34,7 +34,7 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="dropdown">
+    <!-- <div class="dropdown">
         <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           Dropdown link
         </a>
@@ -43,6 +43,36 @@
           <li><a class="dropdown-item" href="#">Action</a></li>
           <li><a class="dropdown-item" href="#">Another action</a></li>
           <li><a class="dropdown-item" href="#">Something else here</a></li>
-        </ul>
+        </ul> -->
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emoji Dropdown Menu</title>
+</head>
+<body>
+    <label for="emoji-dropdown"></label>
+    <select id="emoji-dropdown">
+        <option value="All">All</option>
+        <option value="Read">Read</option>
+        <option value="😍">😍 Heart Eyes</option>
+        <option value="😎">😎 Smiling Face with Sunglasses</option>
+        <option value="🤔">🤔 Thinking Face</option>
+    </select>
+
+    <p id="selected-emoji">Selected Emoji: None</p>
+
+    <script>
+        const dropdown = document.getElementById('emoji-dropdown');
+        const selectedEmoji = document.getElementById('selected-emoji');
+
+        dropdown.addEventListener('change', function() {
+            selectedEmoji.textContent = 'Selected Emoji: ' + dropdown.value;
+        });
+    </script>
+</body>
+</html>
+
 </body>
 </html>
